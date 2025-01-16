@@ -1,16 +1,11 @@
 root = true
-<<<<<<< HEAD
-[*]
-charset = utf-8
-end_of_line = lf
-insert_final_newline = true
-=======
 
 [*]
-charset = utf-8
 indent_style = space
 indent_size = 2
-end_of_line = lf
-insert_final_newline = true
+charset = utf-8
 trim_trailing_whitespace = true
->>>>>>> 0cddb0e9c937838fc2fbf0efdd0776290f755081
+insert_final_newline = false
+
+[*.{json,md,yaml}]
+indent_size = 2
