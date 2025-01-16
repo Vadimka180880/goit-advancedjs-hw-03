@@ -1,4 +1,14 @@
 {
+<<<<<<< HEAD
   "semi": true,
   "singleQuote": true
 }
+=======
+    "semi": true,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 80,
+    "tabWidth": 2
+    }
+    
+>>>>>>> 0cddb0e9c937838fc2fbf0efdd0776290f755081
