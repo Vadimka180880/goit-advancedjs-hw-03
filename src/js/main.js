@@ -9,7 +9,6 @@ const form = document.querySelector('#search-form');
 const gallery = document.querySelector('.gallery');
 const loader = document.querySelector('.loader');
 
-// Ініціалізація SimpleLightbox
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
@@ -44,8 +43,7 @@ form.addEventListener('submit', async (e) => {
 
     const markup = createGalleryMarkup(data.hits);
     renderGallery(gallery, markup);
-
-    // Оновлюємо SimpleLightbox після додавання зображень
+    
     lightbox.refresh();
   } catch (error) {
     iziToast.error({
