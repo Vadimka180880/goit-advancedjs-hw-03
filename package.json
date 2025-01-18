@@ -4,14 +4,14 @@
   "description": "Проєкт пошуку зображень із використанням Pixabay API.",
   "main": "eslint.config.js",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build --base=/goit-advancedjs-hw-03/",
-  "preview": "vite preview",
-  "deploy": "gh-pages -d dist",
-  "lint": "eslint ./src/**/*.js"
-},
-
+    "dev": "vite",
+    "build": "vite build --base=/goit-advancedjs-hw-03/",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint ./src/**/*.js"
+  },
   "dependencies": {
+    "axios": "^1.7.9",
     "izitoast": "^1.4.0",
     "simplelightbox": "^2.14.3"
   },
